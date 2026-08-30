@@ -1,2 +1,9 @@
 Placement Dashboard
-A clean, card-based web layout built using native HTML and CSS to feature recently placed students. The interface showcases student achievements, company names, and salary packages alongside a simple sidebar navigation menu.FeaturesStudent Profile Cards: Dedicated visual cards containing student photos framed inside custom badge outlines.Placement Details: Displays student names, hiring companies (such as Conga, NASDAQ, Evision Infotech, and Zomato), and salary packages in LPA.Sidebar Menu: A vertical navigation panel featuring navigation links for Home, Placement, Recruitment, Faculty, and News.Branded Footer: A fixed bottom footer area indicating institution branding and copyright information.Tech StackHTML5: Core page structure, semantic layout containers, and text formatting.CSS3: Custom layout styling, border curves, card drop-shadow elements, and background color styling.
+A clean, card-based web layout built using native HTML and CSS to feature recently placed students. The interface showcases student achievements, company names, and salary packages alongside a simple sidebar navigation menu.
+FeaturesStudent Profile Cards: Dedicated visual cards containing student photos framed inside custom badge outlines
+Placement Details: Displays student names, hiring companies (such as Conga, NASDAQ, Evision Infotech, and Zomato), and salary packages in LPA.
+Sidebar Menu: A vertical navigation panel featuring navigation links for Home, Placement, Recruitment, Faculty, and News.
+Branded Footer: A fixed bottom footer area indicating institution branding and copyright information.
+Tech Stack 
+HTML5: Core page structure, semantic layout containers, and text formatting.
+CSS3: Custom layout styling, border curves, card drop-shadow elements, and background color styling.
