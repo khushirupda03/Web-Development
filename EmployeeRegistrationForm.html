@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Employee Form</title>
+</head>
+<style>
+    legend{
+        color: rgb(140, 62, 213);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    label{
+        color: rgb(133, 5, 88);
+    }
+</style>
+<body>
+    <h1 style="color:darkblue; text-align: center;">Employee Registration Form</h1>
+    <form action="welcome.html" autocomplete="on"method="get" target="_blank">
+    <fieldset>
+        <legend> Personal Information</legend>
+        <label>Employee ID: </label>
+        <input type="text"placeholder="Enter Employee ID"required/>
+        <br/>
+        <br/>
+    
+         <label>Full Name: </label>
+        <input type="text"placeholder="Enter Full Name"required/>
+        <br/>
+        <br/>
+
+         <label> Father's Name: </label>
+        <input type="text"placeholder="Enter Father's Name"required/>
+        <br/>
+        <br/>
+
+     <label> Mother's Name (Optional): </label>
+        <input type="text"placeholder="Enter Mother's Name"/>
+        <br/>
+        <br/>
+
+         <label> Gender: </label>
+        <input type="radio"name="reg_gender"value="Male"/><label> Male</label>
+        <input type="radio"name="reg_gender" value="Female"/><label> Female</label>
+        <input type="radio"name="reg_gender" value="Other"/><label> Other</label>
+        <br/>
+        <br/>
+
+        <label> Date of Birth:  </label>
+        <input type="date"name="reg_dob"required/>
+        <br/>
+        <br/>
+
+        <label> Age: </label>
+        <input type="number"name="reg_age"required/>
+        <br/>
+        <br/>
+
+        <label> Email: </label>
+        <input type="email"placeholder="Enter Email Address" name="reg_email"required/>
+        <br/>
+        <br/>
+
+       <label> Password: </label>
+       <input type="passsword"placeholder="Enter Password"name="reg_pas">
+       <br/>
+       <br/>
+
+        <label> State: </label>
+       <input type="text"placeholder="Enter State"name="reg_state">
+       <br/>
+       <br/>
+</fieldset>
+ <fieldset>
+    <legend>Professional Information</legend>
+    <label>Department: </label>
+    <select name="reg_department">
+          <optgroup label="Department"></optgroup>
+        <option value="Human Resources">Human Resources</option>
+            <option value="Information Technology">Information Technology</option>
+            <option value="Finance">Finance</option>
+            <option value="Marketing and Sales">Marketing and Sales</option>
+            <option value="Research and Development">Research and Development</option>
+           
+    </select>
+     <br>
+     <br>
+    <label> Designation: </label>
+    <select name="reg_designation">
+          <optgroup label="Designation"></optgroup>
+        <option value="Intern">Intern</option>
+            <option value="Associate">Associate</option>
+            <option value="Executive">Exexcutive</option>
+            <option value="Senior Executive">Senior Executive</option>
+            <option value="Team Lead">Team Lead</option>
+    </select>
+    <br>
+    <br>
+    <label>Employee Type: </label>
+          <select name="reg_type">
+            <optgroup label="Type"></optgroup>
+            <option value="Full Time">Full Time</option>
+            <option value="Part Time">Part Time</option>
+            <option value="Freelancer">Freelancer</option>
+            <option value="Consultant">Consultant</option>
+          </select>
+          <br>
+          <br>
+    <label>Highest Qualification: </label>
+    <select>
+    <optgroup label="Qualification"></optgroup>
+    <option value="10th">10th</option>
+    <option value="12th">12th</option>
+    <option value="Diploma">Diploma</option>
+    <option value="Graduate">Graduate</option>
+    </select>
+    <br>
+    <br>
+    <label>Previous Company: </label>
+    <input type="text"placeholder="Enter Previous Company"name="reg_company">
+    <br>
+    <br>
+    <label>Skills: </label>
+    <input type="checkbox" name="reg_html"value="HTML"/><label style="color: black;">HTML</label>
+    <input type="checkbox" name="reg_css"value="CSS"/><label style="color: black;">CSS</label>
+    <input type="checkbox" name="reg_js"value="Js"/><label style="color: black;">JavaScript</label>
+    <input type="checkbox" name="reg_react"value="React"/><label style="color: black;">React</label>
+                   <br>
+    <input type="checkbox" name="reg_php"value="Php"/><label style="color: black;">Php</label>
+    <input type="checkbox" name="reg_python"value="Python"/><label style="color: black;">Python</label>
+    <input type="checkbox" name="reg_java"value="JAVA"/><label style="color: black;">Java</label>
+    <input type="checkbox" name="reg_c++"value="C++"/><label style="color: black;">C++</label>
+     
+ </fieldset>
+ <fieldset>
+    <legend>Documents: </legend>
+            <label>Upload Profile Picture:</label>
+        <input type="file" name="reg_file" />
+        <br />
+        <br />
+        <label>Upload Resume: </label>
+         <input type="file" name="reg_file" />
+         <br>
+         <br>
+         <label>Upload Aadhar Card:</label>
+          <input type="file" name="reg_file" />
+          <br>
+          <br>
+          <label>Upload Degree Certificate: </label>
+          <input type="file"name="reg_file"/>
+          <br>
+          <br>
+ </fieldset>
+ <fieldset>
+    <legend>Prefernces and Extra: </legend>
+    <label>Prefered working mode:</label>
+     <input type="radio"name="reg_mode"value="Work from Office"/><label style="color: black;"> Work from Office</label>
+        <input type="radio"name="reg_mode" value="Hybrid"/><label style="color: black;"> Hybrid</label>
+        <input type="radio"name="reg_mode" value="Remote"/><label style="color: black;"> Remote</label>
+        <br/>
+        <label>Favourite Color: </label>
+        <input type="color" name="reg_color">
+        <br>
+        <br>
+        <label>LinkedIn profile</label>
+        <input type="url"name="reg_url"placeholder="https://linkedin.com">
+        <br>
+        <br>
+         <label>Github profile</label>
+        <input type="url"name="reg_url"placeholder="https://github.com">
+        <br>
+        <br>
+         <label>Personal Portfolio</label>
+        <input type="url"name="reg_url"placeholder="https://example.com">
+    
+ </fieldset>
+ <fieldset>
+        <legend>Other</legend>
+        <label>Agree to company policies:</label>
+        <input type="checkbox"name="reg_agree"><label style="color: black;">I Agree</label>
+        <br>
+        <label>Interested to Work With Comapny </label>
+        <input type="range" name="reg_work">
+        <br>
+        <label>Any Comments</label>
+        <textarea id="comments" name="comments"
+          rows="3" cols="50"
+          placeholder="Enter your comments here..."></textarea>
+ </fieldset>
+ <fieldset>
+    <legend>Form Controls:</legend>
+     <button>Register Employee</button>
+        <br /><br />
+    <input type="submit" />
+        <br /><br />
+        <input type="reset" />
+        <br /><br />
+        <input type="image"name="reg_name" src="LOGO.png"height="70"width="250">
+ </fieldset>
+    </form>
+</body>
+</html>

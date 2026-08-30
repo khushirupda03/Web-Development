@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1> Student Registration Form</h1>
+    <!--Method and action and target are important for the form in the exam rest all are optional-->
+    <form action="welcome.html" autocomplete="on"method="get" target="_blank"><!--Data will be seen in the url with the question mark-->
+    <fieldset>
+        <legend> Personal Information</legend>
+        <label> Full Name: </label>
+        <input type="text" placeholder="Enter Name"name="reg_Fullname"/>
+        <br/>
+        <br/>
+
+         <label> Email: </label>
+        <input type="email" placeholder="Enter Email"required/>
+        <br/>
+        <br/>
+
+         <label> Password: </label>
+        <input type="password"placeholder="Enter Password"required/>
+        <br/>
+        <br/>
+
+         <label> Phone Number: </label>
+        <input type="tel"required/>
+        <br/>
+        <br/>
+
+         <label> Age: </label>
+        <input type="number"required/>
+        <br/>
+        <br/>
+
+         <label> Gender: </label>
+        <input type="Radio"/><label>Male</label>
+         <input type="Radio"/><label>Female</label>
+        <br/>
+        <br/>
+    </fieldset>
+
+    <fieldset>
+        <legend> Prefernece & Extra</legend>
+         <label> Upload profile Picture </label>
+        <input type="file"/>
+        <br/>
+        <br/>
+
+         <label> Color: </label>
+        <input type="color"/>
+        <br/>
+        <br/>
+
+         <label>Search for Course: </label>
+        <input type="search"/>
+        <br/>
+        <br/>
+
+         <label> Course Interest Range: </label>
+        <input type="range"/>
+        <br/>
+        <br/>
+
+         <label> Personal Website: </label>
+        <input type="url"/>
+        <br/>
+        <br/>
+
+         <label> Course Type: </label>
+       <select>
+       <optgroup label="Engineering">
+         <option>Computer Engineering</option>
+        <option> Computer Science and Engineering</option>
+        <option> IT</option>
+       </optgroup>
+       <optgroup label="Management">
+         <option>BBA</option>
+        <option> MBA</option>
+        <option> B.com</option>
+       </optgroup>
+       </select>
+        <br/>
+        <br/>
+
+        <label> Preferred Country</label>
+        <input list="countries">
+        <datalist id="countries">
+            <option> India</option>
+            <option> USA</option>
+            <option> Japan</option>
+        </datalist>
+        <br/>
+        <br/>
+
+        <label> Agree to Terms:</label>
+        <input type="Checkbox"/> <label> agree</label>
+        <br/>
+        <br/>
+    </fieldset>
+
+    <fieldset>
+        <legend> Date and Time Info</legend>
+        <label> Select Date of Birth :</label>
+        <input type="date"/>
+        <br/>
+        <br/>
+
+        <label> Select Time :</label>
+        <input type="time"/>
+        <br/>
+        <br/>
+
+        <label> Select Month :</label>
+        <input type="month"/>
+        <br/>
+        <br/>
+
+        <label> Select Week :</label>
+        <input type="week"/>
+        <br/>
+        <br/>
+
+        <label> Select Date and Time :</label>
+        <input type="datetime-local"/>
+        <br/>
+        <br/>
+    </fieldset>
+
+    <fieldset>
+        <legend> Form Controls </legend>
+        <button type="button"> Click Me</button>
+         <br/>
+        <br/>
+
+        <input type="image" src="LOGO.png" alt="MU Logo for Register Now">
+      <br/>
+      <br/>
+
+        <input type="submit" value="Register Now">
+        <br/>
+        <br/>
+
+        <input type="reset">
+        <br/>
+        <br/>
+    
+    </fieldset>
+    </form>
+</body>
+</html>
