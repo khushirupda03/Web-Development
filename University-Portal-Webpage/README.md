@@ -12,8 +12,3 @@ A clean, single-page static portal presenting fundamental academic structures, p
 * **HTML5:** Semantic structural building block containers.
 * **CSS3:** Custom interface variables, flexbox structures, card layout matrices, and native hover behaviors.
 
-## Quick Start
-
-1. Download or clone this folder layout structure.
-2. Locate the main root index file (`index.html`).
-3. Double-click or select the file within a desktop web browser to render the live operational layout view.
