@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    h2{
+      text-align: center;
+    }
+    .photo
+    {
+      width:20%;
+    }
+    .photo img{
+      width:100%;
+      background-color:lightgray;
+      border-radius: 5px;
+    }
+    .photo img:hover
+    {
+      transform: scale(1.05);
+    }
+    .gallery
+    {
+      display:flex;
+      gap:30px;
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+    @media (max-width:700px) {
+        .photo
+        {
+          width: 40%;
+        }
+    }
+    @media (max-width:400px) {
+        .photo
+        {
+          width: 80%;
+        }
+    }
+  </style>
+</head>
+<body>
+  <h2>Photo Gallery</h2>
+  <div class="gallery">
+
+        <div class="photo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTRA9x8ZClCxscSqaNmpBbWsCAKh7EbkKN0dljUV5VQg&s=10" alt="Photo 1"></div>
+        <div class="photo"><img src="github-sign.png" alt="Photo 2"></div>
+        <div class="photo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPw40AfChKvrmbtWMFDHvyR-nvKY_UG1kzMgm_tUnzTA&s=10" alt="Photo 3"></div>
+        <div class="photo"><img src="linkedin.png" alt="Photo 4"></div>
+        <div class="photo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLpxYXyN1mhFr81MGg005ub5i2axd7mldG9I0NCGq9Gg&s=10" alt="Photo 5"></div>
+        <div class="photo"><img src="mail.png" alt="Photo 6"></div>
+        <div class="photo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQev98sSTS7YOMYw9I_IoUa0XlnI3zXnH_JNiXPXmWJfQ&s=10" alt="Photo 7"></div>
+        <div class="photo"><img src="blueprint.png" alt="Photo 8"></div>
+
+    </div>
+</body>
+</html>
